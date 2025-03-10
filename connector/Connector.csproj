@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61D44A66-C310-4D48-AF2C-6D202F8A9698}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Br.Com.IGloobe.Connector</RootNamespace>
+    <AssemblyName>IGloobeConnectorInterface</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="src\CalibrationData.cs" />
+    <Compile Include="src\Commands\RightClick.cs" />
+    <Compile Include="src\Connector.cs" />
+    <Compile Include="src\ConsoleManager.cs" />
+    <Compile Include="src\Gui\FormCalibration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Gui\FormCalibration.Designer.cs">
+      <DependentUpon>FormCalibration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Gui\FormFindAndConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Gui\FormFindAndConnect.Designer.cs">
+      <DependentUpon>FormFindAndConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Gui\Localization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Gui\Localization.Designer.cs">
+      <DependentUpon>Localization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Hardware.cs" />
+    <Compile Include="src\IGloobeStateListener.cs" />
+    <Compile Include="src\IRListener.cs" />
+    <Compile Include="src\MotionCapture.cs" />
+    <Compile Include="src\Warper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\motionCapture\IGloobeMote.csproj">
+      <Project>{9E89BAA8-3B5A-474F-B1A6-940ED52F585E}</Project>
+      <Name>IGloobeMote</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Gui\FormCalibration.resx">
+      <DependentUpon>FormCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Gui\FormFindAndConnect.resx">
+      <DependentUpon>FormFindAndConnect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Gui\Localization.resx">
+      <DependentUpon>Localization.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\calibrate.ico" />
+    <Content Include="img\calibrateBackground.png" />
+    <Content Include="img\calibrateCtrl256.png" />
+    <Content Include="img\calibrateCtrl256_on.png" />
+    <Content Include="img\wait.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

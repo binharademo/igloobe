@@ -1,0 +1,13 @@
+D:\repositorios\Versao3.5.13\src\connector\connector\bin\Debug\IGloobeConnectorInterface.dll
+D:\repositorios\Versao3.5.13\src\connector\connector\bin\Debug\IGloobeConnectorInterface.pdb
+D:\repositorios\Versao3.5.13\src\connector\connector\bin\Debug\IGloobeConnectorMote.dll
+D:\repositorios\Versao3.5.13\src\connector\connector\bin\Debug\IGloobeConnectorMote.pdb
+D:\repositorios\Versao3.5.13\src\connector\connector\obj\Debug\ResolveAssemblyReference.cache
+D:\repositorios\Versao3.5.13\src\connector\connector\obj\Debug\Br.Com.IGloobe.Connector.Properties.Resources.resources
+D:\repositorios\Versao3.5.13\src\connector\connector\obj\Debug\Br.Com.IGloobe.Connector.Gui.FormCalibration.resources
+D:\repositorios\Versao3.5.13\src\connector\connector\obj\Debug\Br.Com.IGloobe.Connector.Gui.FormFindAndConnect.resources
+D:\repositorios\Versao3.5.13\src\connector\connector\obj\Debug\Br.Com.IGloobe.Connector.Gui.Localization.resources
+D:\repositorios\Versao3.5.13\src\connector\connector\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\repositorios\Versao3.5.13\src\connector\connector\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\repositorios\Versao3.5.13\src\connector\connector\obj\Debug\IGloobeConnectorInterface.dll
+D:\repositorios\Versao3.5.13\src\connector\connector\obj\Debug\IGloobeConnectorInterface.pdb

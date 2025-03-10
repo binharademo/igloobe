@@ -1,0 +1,57 @@
+# Projeto Destaque: IGloobe - Sistema de Interação por Captura de Movimento
+
+## Descrição do Projeto
+Liderei o desenvolvimento do IGloobe, um sistema inovador de interação por captura de movimento desenvolvido em C#. Este projeto pioneiro permitiu controle de apresentações e desenho interativo utilizando tecnologia de rastreamento semelhante ao Wiimote da Nintendo, mas com aplicações específicas para ambientes educacionais e corporativos.
+
+## Tecnologias e Habilidades Demonstradas
+
+### Domínio Avançado de C# e .NET Framework
+* Implementei uma arquitetura modular e extensível utilizando os recursos mais avançados do C#
+* Desenvolvi interfaces abstratas e concretas para garantir baixo acoplamento e alta coesão
+* Utilizei recursos de reflection para criar sistemas dinâmicos e adaptáveis
+* Implementei comunicação assíncrona para garantir uma interface responsiva
+
+### Padrões de Design e Arquitetura de Software
+* Apliquei múltiplos padrões de design (Singleton, Factory, State, Observer, Template Method) de forma integrada
+* Projetei uma arquitetura em camadas com clara separação de responsabilidades
+* Implementei um sistema robusto de gerenciamento de estados para conexão com dispositivos
+* Criei um sistema extensível que permite fácil adição de novos recursos
+
+### Integração com Hardware e Comunicação de Baixo Nível
+* Desenvolvi comunicação Bluetooth utilizando a biblioteca InTheHand.Net.Personal
+* Implementei comunicação com dispositivos HID (Human Interface Device)
+* Utilizei P/Invoke para interação direta com APIs nativas do Windows
+* Criei algoritmos de transformação de coordenadas para mapear movimentos 3D em espaço 2D
+
+### Interface Gráfica Inovadora
+* Desenvolvi formulários transparentes e arrastáveis para melhor experiência do usuário
+* Implementei sistema de desenho em tempo real com controle de cores e espessuras
+* Criei interfaces minimalistas e não intrusivas para uso em apresentações
+* Desenvolvi sistema de calibração visual intuitivo
+
+### Resolução de Problemas Complexos
+* Implementei algoritmos de suavização para reduzir tremores na captura de movimento
+* Desenvolvi sistema de calibração em quatro pontos para precisão no mapeamento espacial
+* Criei mecanismos de reconexão automática para garantir estabilidade
+* Implementei sistema de detecção e prevenção de múltiplas instâncias
+
+## Resultados e Impacto
+* O sistema IGloobe demonstrou minha capacidade de desenvolver soluções completas e inovadoras em C#
+* O projeto integrou hardware e software de forma transparente, proporcionando uma experiência de usuário fluida
+* A arquitetura modular e bem estruturada permitiu fácil manutenção e extensão do sistema
+* O uso avançado de padrões de design demonstrou minha proficiência em engenharia de software
+
+## Competências Técnicas Demonstradas
+* Desenvolvimento C# / .NET Framework
+* Arquitetura de Software
+* Padrões de Design
+* Comunicação Bluetooth
+* Programação de Baixo Nível
+* Desenvolvimento de Interface Gráfica
+* Integração Hardware/Software
+* Processamento de Sinais
+* Algoritmos de Transformação Espacial
+
+---
+
+Este projeto exemplifica minha capacidade de liderar o desenvolvimento de soluções inovadoras utilizando C# e tecnologias Microsoft, combinando conhecimentos avançados de programação com uma visão arquitetural sólida e orientada a padrões de design.

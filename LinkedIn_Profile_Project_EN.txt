@@ -1,0 +1,57 @@
+# Featured Project: IGloobe - Motion Capture Interaction System
+
+## Project Description
+I led the development of IGloobe, an innovative motion capture interaction system developed in C#. This pioneering project enabled presentation control and interactive drawing using tracking technology similar to Nintendo's Wiimote, but with specific applications for educational and corporate environments.
+
+## Technologies and Demonstrated Skills
+
+### Advanced Mastery of C# and .NET Framework
+* Implemented a modular and extensible architecture using the most advanced features of C#
+* Developed abstract and concrete interfaces to ensure low coupling and high cohesion
+* Used reflection capabilities to create dynamic and adaptable systems
+* Implemented asynchronous communication to ensure a responsive interface
+
+### Design Patterns and Software Architecture
+* Applied multiple design patterns (Singleton, Factory, State, Observer, Template Method) in an integrated manner
+* Designed a layered architecture with clear separation of concerns
+* Implemented a robust state management system for device connections
+* Created an extensible system that allows easy addition of new features
+
+### Hardware Integration and Low-Level Communication
+* Developed Bluetooth communication using the InTheHand.Net.Personal library
+* Implemented communication with HID (Human Interface Device) devices
+* Used P/Invoke for direct interaction with native Windows APIs
+* Created coordinate transformation algorithms to map 3D movements in 2D space
+
+### Innovative Graphical Interface
+* Developed transparent and draggable forms for better user experience
+* Implemented real-time drawing system with color and thickness control
+* Created minimalist and non-intrusive interfaces for use in presentations
+* Developed intuitive visual calibration system
+
+### Complex Problem Solving
+* Implemented smoothing algorithms to reduce jitter in motion capture
+* Developed four-point calibration system for precision in spatial mapping
+* Created automatic reconnection mechanisms to ensure stability
+* Implemented detection and prevention system for multiple instances
+
+## Results and Impact
+* The IGloobe system demonstrated my ability to develop complete and innovative solutions in C#
+* The project integrated hardware and software seamlessly, providing a fluid user experience
+* The modular and well-structured architecture allowed for easy maintenance and extension of the system
+* The advanced use of design patterns demonstrated my proficiency in software engineering
+
+## Demonstrated Technical Competencies
+* C# / .NET Framework Development
+* Software Architecture
+* Design Patterns
+* Bluetooth Communication
+* Low-Level Programming
+* Graphical Interface Development
+* Hardware/Software Integration
+* Signal Processing
+* Spatial Transformation Algorithms
+
+---
+
+This project exemplifies my ability to lead the development of innovative solutions using C# and Microsoft technologies, combining advanced programming knowledge with a solid architectural vision oriented towards design patterns.

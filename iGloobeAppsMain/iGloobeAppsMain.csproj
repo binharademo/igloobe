@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{358604BE-EFA9-438C-9498-6FD8F8CF08A0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Br.Com.IGloobe.Apps.Main.Gui</RootNamespace>
+    <AssemblyName>iGloobeAppsMain</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>igloobe.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\FormAppsPresentation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\FormAppsPresentation.Designer.cs">
+      <DependentUpon>FormAppsPresentation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\DraggableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\FormAppsDraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\FormAppsDraw.Designer.cs">
+      <DependentUpon>FormAppsDraw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\FormAppsMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\FormAppsMain.Designer.cs">
+      <DependentUpon>FormAppsMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Window.cs" />
+    <Compile Include="src\Windows.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="src\FormAppsPresentation.resx">
+      <DependentUpon>FormAppsPresentation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\FormAppsDraw.resx">
+      <DependentUpon>FormAppsDraw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\FormAppsMain.resx">
+      <DependentUpon>FormAppsMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\connector\Connector.csproj">
+      <Project>{61D44A66-C310-4D48-AF2C-6D202F8A9698}</Project>
+      <Name>Connector</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="igloobe.ico" />
+    <Content Include="img\ctrl\calibrateCtrl128.png" />
+    <Content Include="img\ctrl\calibrateCtrl16.png" />
+    <Content Include="img\ctrl\calibrateCtrl32.png" />
+    <Content Include="img\ctrl\calibrateCtrl48.png" />
+    <Content Include="img\ctrl\calibrateCtrl64.png" />
+    <Content Include="img\close28.png" />
+    <Content Include="img\ctrl\drawCtrl128.png" />
+    <Content Include="img\ctrl\drawCtrl16.png" />
+    <Content Include="img\draw\draw_color_white48.png" />
+    <Content Include="img\igloobe128.png" />
+    <Content Include="img\igloobe16.png" />
+    <Content Include="img\keyboard48.png" />
+    <Content Include="img\mouse48.png" />
+    <Content Include="img\ctrl\showCtrl128.png" />
+    <Content Include="img\ctrl\showCtrl16.png" />
+    <Content Include="img\_show.ico" />
+    <Content Include="img\_paint.ico" />
+    <Content Include="img\_main.ico" />
+    <Content Include="img\ctrl\drawCtrl32.png" />
+    <Content Include="img\ctrl\drawCtrl48.png" />
+    <Content Include="img\ctrl\drawCtrl64.png" />
+    <Content Include="img\draw\draw_alpha48a.png" />
+    <Content Include="img\draw\draw_alpha48b.png" />
+    <Content Include="img\draw\draw_alpha48c.png" />
+    <Content Include="img\draw\draw_color_black48.png" />
+    <Content Include="img\draw\draw_color_blue48.png" />
+    <Content Include="img\draw\draw_color_red48.png" />
+    <Content Include="img\draw\draw_color_yellow48.png" />
+    <Content Include="img\draw\draw_desktop48.png" />
+    <Content Include="img\draw\draw_erase48.png" />
+    <Content Include="img\draw\draw_pointer48.png" />
+    <Content Include="img\draw\draw_size48a.png" />
+    <Content Include="img\draw\draw_size48b.png" />
+    <Content Include="img\draw\draw_size48c.png" />
+    <Content Include="img\draw\draw_witheboard48.png" />
+    <Content Include="img\_igloobe.ico" />
+    <Content Include="img\igloobe32.png" />
+    <Content Include="img\igloobe48.png" />
+    <Content Include="img\igloobe64.png" />
+    <Content Include="img\ctrl\showCtrl32.png" />
+    <Content Include="img\ctrl\showCtrl48.png" />
+    <Content Include="img\ctrl\showCtrl64.png" />
+    <Content Include="img\show\show_left48.png" />
+    <Content Include="img\show\show_open48.png" />
+    <Content Include="img\show\show_play48.png" />
+    <Content Include="img\show\show_rec48.png" />
+    <Content Include="img\show\show_right48.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

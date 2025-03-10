@@ -1,0 +1,675 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="sleepTime" priority="0" />
+      <Item value="public" priority="16" />
+      <Item value="abstract" priority="4" />
+      <Item value="void" priority="8" />
+      <Item value="override" priority="0" />
+      <Item value="new" priority="39" />
+      <Item value="Initializing`0" priority="0" />
+      <Item value="virtual" priority="0" />
+      <Item value="Connector" priority="19" />
+      <Item value="authenticated" priority="0" />
+      <Item value="remembered" priority="0" />
+      <Item value="unknown" priority="0" />
+      <Item value="BluetoothClientNotFound`0" priority="0" />
+      <Item value="device" priority="0" />
+      <Item value="_device" priority="0" />
+      <Item value="CurrentState" priority="1" />
+      <Item value="IRListener`0" priority="0" />
+      <Item value="T`0" priority="0" />
+      <Item value="ThreadStaticAttribute`0" priority="0" />
+      <Item value="private" priority="9" />
+      <Item value="ConnectorImpl" priority="0" />
+      <Item value="is" priority="0" />
+      <Item value="return" priority="45" />
+      <Item value="#endregion" priority="1" />
+      <Item value="value" priority="3" />
+      <Item value="ConnectionState`0" priority="1" />
+      <Item value="_currentState" priority="0" />
+      <Item value="if" priority="47" />
+      <Item value="true" priority="18" />
+      <Item value="false" priority="23" />
+      <Item value="_connector" priority="6" />
+      <Item value="interface" priority="0" />
+      <Item value="int" priority="6" />
+      <Item value="ConnectorImpl`0" priority="1" />
+      <Item value="Type`0" priority="2" />
+      <Item value="Connector`0" priority="1" />
+      <Item value="null" priority="9" />
+      <Item value="Type" priority="1" />
+      <Item value="typeof" priority="2" />
+      <Item value="Reflection" priority="0" />
+      <Item value="object" priority="1" />
+      <Item value="state" priority="1" />
+      <Item value="bool" priority="5" />
+      <Item value="stateId" priority="1" />
+      <Item value="GetType`0" priority="1" />
+      <Item value="lastWorker" priority="0" />
+      <Item value="this" priority="9" />
+      <Item value="irListener" priority="0" />
+      <Item value="StateListener" priority="0" />
+      <Item value="x" priority="11" />
+      <Item value="Thread`0" priority="9" />
+      <Item value="System" priority="8" />
+      <Item value="Console`0" priority="20" />
+      <Item value="DateTime`0" priority="2" />
+      <Item value="_lastChangeStateTime" priority="0" />
+      <Item value="static" priority="1" />
+      <Item value="PromoteTo`0" priority="6" />
+      <Item value="try" priority="6" />
+      <Item value="catch" priority="2" />
+      <Item value="devices" priority="0" />
+      <Item value="foreach" priority="4" />
+      <Item value="internal" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="info" priority="0" />
+      <Item value="Length" priority="2" />
+      <Item value="Collections" priority="2" />
+      <Item value="Generic" priority="2" />
+      <Item value="List" priority="0" />
+      <Item value="List&lt;IDeviceInfo&gt;" priority="0" />
+      <Item value="result" priority="2" />
+      <Item value="DeviceInfo" priority="0" />
+      <Item value="using" priority="5" />
+      <Item value="Windows" priority="1" />
+      <Item value="Gui" priority="0" />
+      <Item value="Commands" priority="0" />
+      <Item value="Fail`0" priority="2" />
+      <Item value="Working`0" priority="2" />
+      <Item value="Success`0" priority="4" />
+      <Item value="MsgDlgTxt" priority="0" />
+      <Item value="viewTest" priority="0" />
+      <Item value="_wmote" priority="0" />
+      <Item value="float" priority="16" />
+      <Item value="accel" priority="1" />
+      <Item value="y" priority="10" />
+      <Item value="z" priority="3" />
+      <Item value="X" priority="2" />
+      <Item value="Y" priority="2" />
+      <Item value="Z" priority="2" />
+      <Item value="data" priority="2" />
+      <Item value="finally" priority="4" />
+      <Item value="MotionCapture`0" priority="0" />
+      <Item value="_formFindAndConnect" priority="0" />
+      <Item value="CalibrationData" priority="0" />
+      <Item value="connectionHeartbeat" priority="1" />
+      <Item value="_calibrationData" priority="0" />
+      <Item value="consoleWindow" priority="0" />
+      <Item value="FromConsoleOutput" priority="0" />
+      <Item value="BufferedStream`0" priority="0" />
+      <Item value="IO" priority="0" />
+      <Item value="Diagnostics" priority="1" />
+      <Item value="ConsoleManager`0" priority="1" />
+      <Item value="GetLength`0" priority="0" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="e" priority="6" />
+      <Item value="else" priority="3" />
+      <Item value="Hardware`0" priority="4" />
+      <Item value="string" priority="10" />
+      <Item value="Promote`0" priority="0" />
+      <Item value="State`0" priority="0" />
+      <Item value="Descalibrated`0" priority="0" />
+      <Item value="ref" priority="3" />
+      <Item value="positionObserver" priority="5" />
+      <Item value="States" priority="0" />
+      <Item value="Calibrate`0" priority="0" />
+      <Item value="_formCalibration" priority="0" />
+      <Item value="Name" priority="1" />
+      <Item value="Point" priority="1" />
+      <Item value="size" priority="1" />
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="0" />
+      <Item value="Opacity" priority="1" />
+      <Item value="FormAppsMain" priority="0" />
+      <Item value="_singleton" priority="1" />
+      <Item value="BtnCloseWindow" priority="0" />
+      <Item value="Visible" priority="7" />
+      <Item value="FormFindAndConnect`0" priority="4" />
+      <Item value="form" priority="0" />
+      <Item value="WindowState" priority="5" />
+      <Item value="Normal" priority="1" />
+      <Item value="frm" priority="0" />
+      <Item value="IsDisposed" priority="1" />
+      <Item value="Parent" priority="2" />
+      <Item value="MainForm" priority="0" />
+      <Item value="FrameDimension`0" priority="0" />
+      <Item value="Minimized" priority="2" />
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="InvokeGotFocus`0" priority="1" />
+      <Item value="Maximized" priority="0" />
+      <Item value="Environment`0" priority="1" />
+      <Item value="IsMouseRightDown" priority="0" />
+      <Item value="var" priority="0" />
+      <Item value="_startLocation" priority="0" />
+      <Item value="deltaX" priority="0" />
+      <Item value="Point`0" priority="1" />
+      <Item value="Location" priority="0" />
+      <Item value="windowPosition" priority="1" />
+      <Item value="mousePosition" priority="0" />
+      <Item value="DraggableForm`0" priority="0" />
+      <Item value="MoveToBottomRightCorner`0" priority="0" />
+      <Item value="Enabled" priority="0" />
+      <Item value="MoveToBottomLeftCorner`0" priority="0" />
+      <Item value="OpenFileDialog`0" priority="0" />
+      <Item value="BtnRight" priority="2" />
+      <Item value="Windows`0" priority="0" />
+      <Item value="windows" priority="6" />
+      <Item value="break" priority="1" />
+      <Item value="ArrayList`0" priority="2" />
+      <Item value="ArrayList" priority="0" />
+      <Item value="i" priority="1" />
+      <Item value="throw" priority="0" />
+      <Item value="Exception" priority="0" />
+      <Item value="_pressWindow" priority="6" />
+      <Item value="FindPresentationWindows`0" priority="0" />
+      <Item value="Window`0" priority="7" />
+      <Item value="SendKeys`0" priority="0" />
+      <Item value="_appWindow" priority="5" />
+      <Item value="readonly" priority="0" />
+      <Item value="SwShow" priority="0" />
+      <Item value="BtnLeft" priority="1" />
+      <Item value="checkPresentation" priority="0" />
+      <Item value="BtnOpen" priority="0" />
+      <Item value="SwHide" priority="1" />
+      <Item value="while" priority="0" />
+      <Item value="Handle" priority="3" />
+      <Item value="IsAccessible" priority="0" />
+      <Item value="IsVisible" priority="1" />
+      <Item value="Info" priority="0" />
+      <Item value="p" priority="1" />
+      <Item value="Process`0" priority="2" />
+      <Item value="ShowInTaskbar" priority="0" />
+      <Item value="DesktopLocation" priority="0" />
+      <Item value="_currentLocation" priority="1" />
+      <Item value="Board`0" priority="0" />
+      <Item value="_board" priority="4" />
+      <Item value="Show`0" priority="0" />
+      <Item value="type" priority="0" />
+      <Item value="color" priority="0" />
+      <Item value="Threading" priority="0" />
+      <Item value="Mutex`0" priority="0" />
+      <Item value="Mutex" priority="0" />
+      <Item value="_mutex" priority="1" />
+      <Item value="cw" priority="0" />
+      <Item value="Image`0" priority="0" />
+      <Item value="BackgroundImage" priority="0" />
+      <Item value="FormAppsDraw`0" priority="1" />
+      <Item value="_isReadyToUse" priority="0" />
+      <Item value="BtnPaint" priority="0" />
+      <Item value="BtnShow" priority="0" />
+      <Item value="BtnMouseClick`0" priority="0" />
+      <Item value="BtnMouse" priority="0" />
+      <Item value="IsReadyToUse" priority="0" />
+      <Item value="_lastMouseDown" priority="0" />
+      <Item value="_lastMouseDownTime" priority="0" />
+      <Item value="lightTimer" priority="0" />
+      <Item value="Activate`0" priority="0" />
+      <Item value="FormCalibration`0" priority="0" />
+      <Item value="FormAppsPresentation`0" priority="2" />
+      <Item value="DictionaryBase`0" priority="1" />
+      <Item value="IDictionary`0" priority="0" />
+      <Item value="tmp" priority="0" />
+      <Item value="MessageBox`0" priority="0" />
+      <Item value="_currentCmds" priority="0" />
+      <Item value="lenth" priority="2" />
+      <Item value="_simpleFileName" priority="0" />
+      <Item value="CloseFile`0" priority="0" />
+      <Item value="isPpt" priority="0" />
+      <Item value="window" priority="1" />
+      <Item value="continue" priority="1" />
+      <Item value="_startProcess" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.ConnectorImpl+ConnectionState">
+      <Item value="Run`0" priority="0" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.ConnectorImpl">
+      <Item value="CurrentState" priority="2" />
+      <Item value="NotInitialized`0" priority="0" />
+      <Item value="BluetoothClientNotFound`0" priority="0" />
+      <Item value="Devices" priority="0" />
+      <Item value="_devices" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:InTheHand.Net.Sockets.BluetoothClient">
+      <Item value="DiscoverDevices`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="GetEnumerator`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.ConnectorImpl">
+      <Item value="ConnectionState`0" priority="0" />
+      <Item value="SearchingBluetooth`0" priority="0" />
+      <Item value="BluetoothClientFound`0" priority="0" />
+      <Item value="BluetoothSoError`0" priority="0" />
+      <Item value="HasNoDevices`0" priority="0" />
+      <Item value="NotFoundIgloobeDevice`0" priority="0" />
+      <Item value="ReadyToUse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="FullName" priority="1" />
+      <Item value="GetConstructor`0" priority="1" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="GetConstructors`0" priority="1" />
+      <Item value="Name" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.TypeSwitch">
+      <Item value="Case`1" priority="1" />
+      <Item value="Do`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.ConnectorImpl+ConnectionState">
+      <Item value="IRListener" priority="0" />
+      <Item value="ComputeWarp`0" priority="0" />
+      <Item value="SmoothingAmount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.IGloobeStateListener">
+      <Item value="StateChanched`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.Connector">
+      <Item value="ComputeWarp`0" priority="0" />
+      <Item value="ConnectionStateTypes" priority="0" />
+      <Item value="StateListener" priority="2" />
+      <Item value="CurrentState" priority="1" />
+      <Item value="Connect`0" priority="0" />
+      <Item value="CheckLastLocation`0" priority="0" />
+      <Item value="SetAccelerationData`0" priority="0" />
+      <Item value="PromoteTo`0" priority="0" />
+      <Item value="Retry`0" priority="0" />
+      <Item value="ReadCameraPosition`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.ConstructorInfo">
+      <Item value="Invoke`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.ConnectionState">
+      <Item value="NewState`0" priority="3" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="GetType`0" priority="1" />
+      <Item value="Id" priority="1" />
+      <Item value="PromoteTo`0" priority="0" />
+      <Item value="State`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.ConnectionState">
+      <Item value="SearchingBluetooth" priority="1" />
+      <Item value="NotInitialized" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="StackTrace" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start`0" priority="2" />
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="15" />
+      <Item value="Beep`0" priority="1" />
+      <Item value="SetOut`0" priority="1" />
+      <Item value="Out" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="CurrentThread" priority="0" />
+      <Item value="Sleep`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:InTheHand.Net.Sockets.BluetoothDeviceInfo">
+      <Item value="DeviceName" priority="1" />
+      <Item value="GetServiceRecords`0" priority="0" />
+      <Item value="Connected" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:InTheHand.Net.BluetoothAddress">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Type">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.Connector">
+      <Item value="Prototype" priority="0" />
+      <Item value="Log`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="1" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="Split`0" priority="1" />
+      <Item value="ToLower`0" priority="1" />
+      <Item value="EndsWith`0" priority="1" />
+      <Item value="Substring`0" priority="0" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.Hardware">
+      <Item value="CheckConnectionHeartbeats" priority="0" />
+      <Item value="ShowConsole" priority="0" />
+      <Item value="DefaultDeviceName" priority="0" />
+      <Item value="ReplaceDeviceName" priority="0" />
+      <Item value="CachedDevices" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.ConnectionState+Success">
+      <Item value="BluetoothClientFound" priority="0" />
+      <Item value="ReadyToUse" priority="0" />
+      <Item value="ConnectingDevice" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.ConnectionState+Fail">
+      <Item value="BluetoothClientNotFound" priority="1" />
+      <Item value="ConnectionProblem" priority="0" />
+      <Item value="Descalibrated" priority="0" />
+      <Item value="MotionCaptureError" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.ConnectionState+Working">
+      <Item value="DiscoveringBluetoothDevices" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.Gui.Localization">
+      <Item value="MsgConnectionProblem" priority="1" />
+      <Item value="MsgDlgRecalibrate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Timer">
+      <Item value="Stop`0" priority="5" />
+      <Item value="Start`0" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RadioButton">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.Mote.Mote">
+      <Item value="GetStatus`0" priority="0" />
+      <Item value="WiimoteState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.Mote.WiimoteState">
+      <Item value="Battery" priority="0" />
+      <Item value="AccelState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.Mote.AccelState">
+      <Item value="X" priority="1" />
+      <Item value="Y" priority="0" />
+      <Item value="Z" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.MotionCapture">
+      <Item value="CheckLastLocation`0" priority="0" />
+      <Item value="SetAccelerationData`0" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.CalibrationData">
+      <Item value="Y" priority="0" />
+      <Item value="Z" priority="0" />
+      <Item value="Store`0" priority="2" />
+      <Item value="SrcX" priority="0" />
+      <Item value="X" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxButtons">
+      <Item value="OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxIcon">
+      <Item value="Exclamation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.FormWindowState">
+      <Item value="Normal" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.Gui.FromConsoleOutput">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.TextWriter">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.ConsoleManager">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.IDeviceInfo">
+      <Item value="Disconnect`0" priority="1" />
+      <Item value="Connect`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.Windows.ConnectorImpl">
+      <Item value="DiscoverInstalledDevices`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.Mote.IGloobeMote">
+      <Item value="MotionState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.Mote.MotionState">
+      <Item value="AccelState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.Gui.FormCalibration">
+      <Item value="InitializeLifetimeService`0" priority="0" />
+      <Item value="Focused" priority="0" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Screen">
+      <Item value="GetWorkingArea`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Apps.Main.Gui.FormAppsMain">
+      <Item value="Location" priority="1" />
+      <Item value="Visible" priority="0" />
+      <Item value="Handle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Rectangle">
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Connector.Gui.FormFindAndConnect">
+      <Item value="Show`0" priority="2" />
+      <Item value="Disposed" priority="0" />
+      <Item value="IsDisposed" priority="1" />
+      <Item value="Visible" priority="4" />
+      <Item value="WindowState" priority="2" />
+      <Item value="Parent" priority="0" />
+      <Item value="NotifyIcon" priority="0" />
+      <Item value="IsReadyToUse" priority="0" />
+      <Item value="Activate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="ImageIndex" priority="0" />
+      <Item value="Enabled" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.Gui.FormFindAndConnect">
+      <Item value="Singleton`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Visible" priority="3" />
+      <Item value="Parent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DragEventArgs">
+      <Item value="X" priority="0" />
+      <Item value="Y" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MouseEventArgs">
+      <Item value="Location" priority="3" />
+      <Item value="Button" priority="1" />
+      <Item value="X" priority="0" />
+      <Item value="Y" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="X" priority="4" />
+      <Item value="Y" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Cursor">
+      <Item value="Position" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Apps.Main.Gui.FormAppsDraw">
+      <Item value="Visible" priority="0" />
+      <Item value="_currentLocation" priority="1" />
+      <Item value="CurrentSize" priority="0" />
+      <Item value="CurrentColor" priority="0" />
+      <Item value="CurrentAlpha" priority="0" />
+      <Item value="CurrentLocation" priority="0" />
+      <Item value="DrawOnDesktop`0" priority="0" />
+      <Item value="SetLocationToPointer`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Apps.Main.Gui.Windows">
+      <Item value="WindowsList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Apps.Main.Gui.Window">
+      <Item value="Title" priority="3" />
+      <Item value="Handle" priority="4" />
+      <Item value="Visible" priority="1" />
+      <Item value="Process" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ArrayList">
+      <Item value="Add`0" priority="0" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Apps.Main.Gui.Window">
+      <Item value="ShowWindow`0" priority="4" />
+      <Item value="SwShowDefault" priority="1" />
+      <Item value="GetForegroundWindow`0" priority="2" />
+      <Item value="GetWindowThreadProcessId`0" priority="0" />
+      <Item value="SetForegroundWindow`0" priority="1" />
+      <Item value="SwShowNormal" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="MainWindowTitle" priority="1" />
+      <Item value="WaitForInputIdle`0" priority="1" />
+      <Item value="ProcessName" priority="1" />
+      <Item value="Handle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="SafeFileName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.Commands.RightClick">
+      <Item value="DoIt`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.NotifyIcon">
+      <Item value="Visible" priority="0" />
+      <Item value="ShowBalloonTip`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="Start`0" priority="0" />
+      <Item value="EnterDebugMode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Apps.Main.Gui.FormAppsDraw">
+      <Item value="Singleton`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Apps.Main.Gui.Board">
+      <Item value="Hide`0" priority="1" />
+      <Item value="Desktop`0" priority="0" />
+      <Item value="Whiteboard`0" priority="1" />
+      <Item value="Show`0" priority="1" />
+      <Item value="Visible" priority="0" />
+      <Item value="Clear`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Pen">
+      <Item value="PenType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Mutex">
+      <Item value="WaitOne`0" priority="0" />
+      <Item value="ReleaseMutex`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Graphics">
+      <Item value="DrawImage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.PixelFormat">
+      <Item value="Format32bppRgb" priority="0" />
+      <Item value="Format24bppRgb" priority="0" />
+      <Item value="Indexed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToFileTimeUtc`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Connector.Gui.FormCalibration">
+      <Item value="Singleton`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Br.Com.IGloobe.Apps.Main.Gui.FormAppsPresentation">
+      <Item value="Singleton`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Br.Com.IGloobe.Apps.Main.Gui.FormAppsPresentation">
+      <Item value="Enabled" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="0" />
+      <Item value="ContainsKey`0" priority="1" />
+      <Item value="Indexer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="9E89BAA8-3B5A-474F-B1A6-940ED52F585E/d:src/f:StateChangedEventArgs.cs" caret="98" fromTop="2" />
+      <File id="9E89BAA8-3B5A-474F-B1A6-940ED52F585E/d:src/f:StateChangedEventHandler.cs" caret="140" fromTop="2" />
+      <File id="9E89BAA8-3B5A-474F-B1A6-940ED52F585E/d:src/f:HidBinder.cs" caret="1100" fromTop="8" />
+      <File id="2ABAFD2C-C1DA-4D7B-979D-399D6F673838/d:Properties/f:Resources.resx" caret="5481" fromTop="9" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsMain.resx" caret="191571" fromTop="407" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:Windows.cs" caret="951" fromTop="20" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/d:Commands/f:RightClick.cs" caret="0" fromTop="0" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsDraw.resx" caret="193951" fromTop="0" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsDraw.Designer.cs" caret="12264" fromTop="46" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:DraggableForm.cs" caret="373" fromTop="7" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsMain.Designer.cs" caret="0" fromTop="0" />
+      <File id="2ABAFD2C-C1DA-4D7B-979D-399D6F673838/d:src/f:Start.cs" caret="911" fromTop="7" />
+      <File id="9E89BAA8-3B5A-474F-B1A6-940ED52F585E/d:src/f:IGloobeMote.cs" caret="4421" fromTop="15" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/f:ConsoleManager.cs" caret="0" fromTop="0" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/d:Gui/f:FormCalibration.cs" caret="3950" fromTop="82" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/f:CalibrationData.cs" caret="365" fromTop="4" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/d:Gui/f:FormFindAndConnect.resx" caret="398297" fromTop="7" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/d:Gui/f:FormFindAndConnect.Designer.cs" caret="4090" fromTop="6" />
+      <File id="9E89BAA8-3B5A-474F-B1A6-940ED52F585E/d:src/f:DataTypes.cs" caret="810" fromTop="0" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsMain.cs" caret="0" fromTop="0" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.Designer.cs" caret="11125" fromTop="129" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/d:Gui/f:FormFindAndConnect.cs" caret="2810" fromTop="6" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsDraw.cs" caret="5232" fromTop="6" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/f:MotionCapture.cs" caret="0" fromTop="0" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/f:Connector.cs" caret="127" fromTop="0" />
+      <File id="30531FD9-DDCE-4EC5-969F-3DA471221CAB/d:src/f:ConnectorImpl.cs" caret="477" fromTop="0" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="3253" fromTop="8" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:Window.cs" caret="114" fromTop="4" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/f:Hardware.cs" caret="127" fromTop="3" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="30531FD9-DDCE-4EC5-969F-3DA471221CAB/d:src/f:ConnectorImpl.cs" caret="10144" fromTop="7" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="4420" fromTop="2" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="5681" fromTop="12" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="5639" fromTop="5" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="5678" fromTop="3" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="4817" fromTop="5" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="1283" fromTop="1" />
+      <File id="30531FD9-DDCE-4EC5-969F-3DA471221CAB/d:src/f:ConnectorImpl.cs" caret="13069" fromTop="3" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/f:Connector.cs" caret="4898" fromTop="10" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/f:Connector.cs" caret="775" fromTop="5" />
+      <File id="30531FD9-DDCE-4EC5-969F-3DA471221CAB/d:src/f:ConnectorImpl.cs" caret="5875" fromTop="2" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="5227" fromTop="3" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="5406" fromTop="8" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsDraw.cs" caret="5004" fromTop="0" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsDraw.cs" caret="7796" fromTop="0" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="6176" fromTop="6" />
+      <File id="30531FD9-DDCE-4EC5-969F-3DA471221CAB/d:src/f:ConnectorImpl.cs" caret="10542" fromTop="6" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsDraw.cs" caret="0" fromTop="0" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsDraw.cs" caret="5232" fromTop="6" />
+      <File id="30531FD9-DDCE-4EC5-969F-3DA471221CAB/d:src/f:ConnectorImpl.cs" caret="12396" fromTop="4" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/f:Hardware.cs" caret="515" fromTop="5" />
+      <File id="30531FD9-DDCE-4EC5-969F-3DA471221CAB/d:src/f:ConnectorImpl.cs" caret="6604" fromTop="7" />
+      <File id="30531FD9-DDCE-4EC5-969F-3DA471221CAB/d:src/f:ConnectorImpl.cs" caret="422" fromTop="3" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="2923" fromTop="2" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="4556" fromTop="11" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="526" fromTop="3" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="4508" fromTop="7" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="4152" fromTop="1" />
+      <File id="358604BE-EFA9-438C-9498-6FD8F8CF08A0/d:src/f:FormAppsPresentation.cs" caret="3030" fromTop="2" />
+      <File id="61D44A66-C310-4D48-AF2C-6D202F8A9698/d:src/f:Hardware.cs" caret="126" fromTop="3" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.7\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
